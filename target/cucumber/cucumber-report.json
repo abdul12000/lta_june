@@ -1,0 +1,151 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1190437800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Newtours website",
+            "match": {
+              "location": "stepDef.NewtoursRegistrationStepDefinitions.iAmOnTheNewtoursWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 490299600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Register link",
+            "match": {
+              "location": "stepDef.NewtoursRegistrationStepDefinitions.i_click_on_the_register_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-02T23:40:31.058Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1997507200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.initialize()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Register by entering only User Information",
+        "description": "",
+        "id": "registration-to-newtours-website;register-by-entering-only-user-information;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 358378800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 361683500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"Jose1234\", password and confirm as \"password120\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jose1234\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"password120\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDef.NewtoursRegistrationStepDefinitions.i_enter_password_and_confirm_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 631219000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click submit button",
+            "match": {
+              "location": "stepDef.NewtoursRegistrationStepDefinitions.i_click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50924700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "confirmation page is displayed with my \"Jose1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jose1234\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDef.NewtoursRegistrationStepDefinitions.confirmation_page_is_displayed_with_my(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ConfigTest"
+          },
+          {
+            "name": "@Newours"
+          },
+          {
+            "name": "@lateef"
+          }
+        ]
+      }
+    ],
+    "name": "Registration to Newtours website",
+    "description": "",
+    "id": "registration-to-newtours-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/featureFiles/NewtoursRegistration.feature",
+    "tags": [
+      {
+        "name": "@ConfigTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
