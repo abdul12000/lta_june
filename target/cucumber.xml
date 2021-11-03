@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.381">
-    <testcase classname="Registration to Newtours website" name="Register by entering only User Information" time="5.164">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.124">
+    <testcase classname="Registration to Newtours website" name="Register by entering only User Information" time="7.902">
         <system-out>
             <![CDATA[Given I am on the Newtours website..........................................passed
 When I click on the Register link...........................................passed

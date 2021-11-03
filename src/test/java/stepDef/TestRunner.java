@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber.html",
                 "json:target/cucumber/cucumber-report.json",
                 "junit:target/cucumber.xml"
-        }, tags="@lateef")
+        }, tags="")
 public class TestRunner {
 }
